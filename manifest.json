@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "WikiTimeline",
+  "description": "Must turn Codegram team members pics into troll faces.",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  },
+  
+  "content_scripts": [
+    {
+      // Change 'matches' attribute to load content
+      // script only in pages you want to.
+      // had to www.codegram.com/team*
+      "matches": [
+        "http://en.wikipedia.org/wiki/*"
+      ],
+      "css": ["basic.css"],
+      "js": ["jquery.min.js", "contentscript.js"]
+    }
+  ],
+  /* http://developer.chrome.com/extensions/manifest.html#web_accessible_resources */
+  "web_accessible_resources": [
+    "images/trollface.jpg"
+  ]
+}
