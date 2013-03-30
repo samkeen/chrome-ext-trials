@@ -17,8 +17,8 @@
       "matches": [
         "http://en.wikipedia.org/wiki/*"
       ],
-      "css": ["basic.css"],
-      "js": ["jquery.min.js", "contentscript.js"]
+      "css": ["timeline.css"],
+      "js": ["jquery.min.js", "contentscript.js", "lib/js-timeline-lib.js"]
     }
   ],
   /* http://developer.chrome.com/extensions/manifest.html#web_accessible_resources */

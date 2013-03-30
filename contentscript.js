@@ -18,17 +18,17 @@ $(document).ready(function() {
  //  $('span.photo img').each(function(index, image){
  //    $(image).attr('src', trollface);
  //  });
- //  $('#footer').before('<div>TIme Line Here</div>');
+  $('#footer').before('<div id="mainCanvas"></div>');
 
- //  var periods = [
-	//         ['20/03/1974', '15/09/1977'],
-	//         ['06/03/1979', '28/02/1980'],
-	//         ['01/12/1980', '17/06/1986'],
-	//         ['23/06/1986', '17/10/2012'],
-	//         ['13/01/1978', '07/12/1978'],
-	// ];
+  var periods = [
+	        ['20/03/1974', '15/09/1977'],
+	        ['06/03/1979', '28/02/1980'],
+	        ['01/12/1980', '17/06/1986'],
+	        ['23/06/1986', '17/10/2012'],
+	        ['13/01/1978', '07/12/1978'],
+	];
 
-	// var timeline = new Timeline(periods);
+	var timeline = new Timeline(periods);
 
-	// timeline.render();
+	timeline.render();
 });
