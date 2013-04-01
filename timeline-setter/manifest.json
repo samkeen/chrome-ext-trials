@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "WikiTimeline js-timeline-lib",
-  "description": "Example timeline injector using js-timeline-lib",
+  "name": "WikiTimeline Timeline Setter",
+  "description": "Example Dateline injector using Timeline Setter",
   "version": "0.0.1",
   "background": {
     "scripts": ["eventPage.js"],
